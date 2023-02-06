@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="left">
+            <p class="textheader">Online Debt Book</p>
+            <p class="texthead">Your Account For Everything Online Debt Book System</p>
+        </div>
+        <div class="right">
+            <!-- <form method="post" action="Login"> -->
+                <div>
+                    <input type="email" placeholder="Username(*)" name="email">
+                </div>
+                <br>
+                <div>
+                    <input type="password" placeholder="Password(*)" name="password" id="password">
+                    <button class="yes" id="show"><i class="fa fa-eye"></i></button>
+                </div>
+                <br> 
+
+                <div class="captcha">
+                    <label for="captcha-input">Enter captcha</label>
+                    <div class="preview"></div>
+                    <div class="captcha-form">
+                        <input type="text" id="captcha-form" placeholder="eNTER CAPTA">
+                        <button class="captcha-refresh">
+                            <i class="fa fa-refresh"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <input type="checkbox" value="" checked=""> Keep me signed in
+                </div>
+                <div class="login">
+                    <button type="submit" class="sb" value="Login" id="login-btn">LOGIN</button>
+                </div>
+            <!-- </form> -->
+            <label class="center">
+                <div><a href="forgotpass.jsp" >Forgotten your password?</a></div>
+                <br>
+                <div><a href="register.jsp">Created New Account</a></div>
+            </label>
+            <label class="center">
+                <p>By logging in, you agree to ODB's 
+                    <a href="">Privacy Policy </a>
+                    "and" 
+                    <a href="">Terms of Use</a>
+                </p>
+            </label>
+        </div>
+
+    <script src="main.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,162 @@
+body{
+    overflow-x: hidden
+}
+.textheader{
+    color: #02B875;
+    font-family: verdana, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 10px;
+    max-width: 25ch;
+    text-align: center;
+    font-weight: bolder;
+}
+.texthead{
+    font-family: verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 10px;
+    margin: 0px 0px 0px 69px;
+    text-align: center;
+}
+.center{
+    text-align: center;
+    color: #075E54;
+    font-family: verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.center a{
+    color: #075E54;
+    font-weight: bolder;
+}
+.center p{
+    color: black;
+}
+input[type = email]{
+    font-family: verdana, Helvetica, sans-serif;
+    width: 450px;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+
+}
+input[type = password]{
+    font-family: verdana, Helvetica, sans-serif;
+    width: 450px;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+
+}
+input[type = text]{
+    font-family: verdana, Helvetica, sans-serif;
+    width: 450px;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+
+}
+input[type = text1]{
+    font-family: verdana, Helvetica, sans-serif;
+    width: 205px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+input[type = text2]{
+    font-family: verdana, Helvetica, sans-serif;
+    height: 30px;
+    width: 133px;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+input[type = button]{
+    font-family: verdana, Helvetica, sans-serif;
+    height: 40px;
+    width: 61px;
+    background: #02B875;
+    border-color: #02B875;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+.sb{
+    font-family: verdana, Helvetica, sans-serif;
+    height: 40px;
+    width: 493px;
+    font-weight: bolder;
+    background: #02B875;
+    border-color: #02B875;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+}
+.left{
+    float: left;
+    margin-top: 15%;
+    margin-left: 125px;
+}
+.right{
+    float: right;
+    border: 2px solid #02B875;
+    box-shadow: 25px 25px #02B875;
+    border-radius: 50px;
+    padding: 25px;
+    margin: 6.5%;
+    margin-right: 115px;
+    padding-top: 50px;
+}
+.center{
+    padding: 15px;
+}
+.yes{
+    background-color: #02B875;
+    margin-left: -29px;
+}
+
+.login-form .captcha{
+margin: 15px 0px;
+
+}
+.captcha .preview{
+color: #555;
+width: 100%;
+text-align: center;
+height: 40px;
+line-height: 40px;
+letter-spacing: 8px;
+border: 1px solid #888;
+font-family: "monospace";
+}
+.captcha .preview span {
+display: inline-block;
+user-select: none;
+}
+.captcha .captcha-form{
+display: flex;
+}
+.captcha .captcha-form input{
+width: 100%;
+padding: 8px;
+border: 1px solid #888;
+}
+.captcha .captcha-form .captcha-refresh{
+width: 40px;
+border: none;
+outline:none;
+background: #888;
+color: #eee;
+cursor: pointer;
+}
